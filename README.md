@@ -88,7 +88,7 @@ Este repositorio acompaña al artículo científico:
 📄 **"Marco Conceptual de la Ingeniería Resonante: Diseñando Materiales Cuánticos desde los Primeros Principios de la Teoría del Pellizco"**
 
 🔗 [Disponible en Scribd](https://www.scribd.com/document/911699739/The-Pellizco-Theory-A-Generative-Framework-for-Fundamental-Physics)  
-(Nota: El título en Scribd es temporal; el artículo definitivo será publicado con el título correcto).
+
 
 ---
 
