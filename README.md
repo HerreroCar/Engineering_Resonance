@@ -128,7 +128,6 @@ Este es un proyecto abierto. Bienvenidos sean:
 - Integración con bases de datos de materiales (Materials Project)
 - Validación experimental
 
-Abre un *issue* o *pull request* para colaborar.
 
 ---
 
