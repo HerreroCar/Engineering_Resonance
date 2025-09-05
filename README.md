@@ -112,7 +112,8 @@ La transición de v7.0 a v7.1 representa un salto cualitativo: de un **modelo fe
 ## 📄 Documento Asociado
 
 Este repositorio acompaña al artículo científico:  
-📄 **"Marco Conceptual de la Ingeniería Resonante: Diseñando Materiales Cuánticos desde los Primeros Principios de la Teoría del Pellizco"**
+📄 **"The Pellizco Theory: A Generative Framework for Fundamental Physics
+Deriving the Universe from a Unique, Stable Fixed Point of a Fractal Renormalization Group"**
 
 🔗 [Disponible en Scribd](https://www.scribd.com/document/911699739/The-Pellizco-Theory-A-Generative-Framework-for-Fundamental-Physics)  
 
