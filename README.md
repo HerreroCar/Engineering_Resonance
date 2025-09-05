@@ -7,7 +7,7 @@
 
 Este directorio contiene el núcleo de un nuevo programa de investigación: la **Ingeniería Resonante**, una disciplina que utiliza los principios de la **Teoría del Pellizco (TdP)** para diseñar materiales cuánticos que alberguen estados de coherencia cuántica emergente, como el reciente "pi-ton".
 
-El script `TdP_MRS_v7.0.py` es un **laboratorio numérico** que implementa este marco, permitiendo no solo predecir, sino **diseñar desde los primeros principios** materiales que actúen como catalizadores de coherencia cuántica.
+El script `TdP_Material_Resonance_Simulator_v7.0.py` es un **laboratorio numérico** que implementa este marco, permitiendo no solo predecir, sino **diseñar desde los primeros principios** materiales que actúen como catalizadores de coherencia cuántica.
 
 ---
 
@@ -61,7 +61,32 @@ Energía del estado fundamental (con TdP): -5.7281
 Energía de enlace del pi-ton: 4.7801
 
 ---
+## 🔄 Evolución del Simulador: v7.0 vs v7.1
 
+A continuación se detalla la evolución técnica entre las dos versiones principales del simulador, destacando cómo la mejora en el modelo físico refleja el progreso del marco teórico.
+
+### **TdP_Material_Resonance_Simulator_v7.0.py**
+
+- **Modelo de electrones**: Simplificado, con dos electrones en una cadena 1D.
+- **Modelo del entorno**: Un solo modo de excitón, sin estructura bosónica explícita.
+- **Acoplamiento**: Escalar, sin dependencia espacial jerárquica.
+- **Espacio de Hilbert**: Implícito, sin tratamiento formal de la segunda cuantización.
+- **Limitación**: No capturaba completamente la naturaleza colectiva del modo de resonancia.
+
+### **TdP_Material_Resonance_Simulator_v7.1.py**
+
+- **Modelo de electrones**: Mejorado con `scipy.sparse` para mayor escalabilidad.
+- **Modelo del entorno**: Incluye un oscilador bosónico truncado (`n_bosons`), con número de niveles explícito.
+- **Acoplamiento**: Jerárquico y espacial: \( g_n \sim p^{-\alpha n} \), reflejando la estructura fractal del vacío.
+- **Espacio de Hilbert**: Producto tensorial explícito \( \mathcal{H}_{\text{elec}} \otimes \mathcal{H}_{\text{boson}} \).
+- **Hamiltoniano de interacción**: Incluye operadores de creación/aniquilación bosónicos \( (b^\dagger + b) \), capturando la dinámica de excitación colectiva.
+- **Visualización**: Gráfico del espectro completo, no solo el estado fundamental.
+
+### **Conclusión de la Evolución**
+
+La transición de v7.0 a v7.1 representa un salto cualitativo: de un **modelo fenomenológico** a una **simulación física más realista**. La v7.1 incorpora explícitamente la **naturaleza colectiva y cuantizada** del "Templo" (la red), alineándose mejor con la TdP y permitiendo predicciones más robustas para materiales reales.
+
+---
 
 ### 🔍 Análisis de los Resultados
 
