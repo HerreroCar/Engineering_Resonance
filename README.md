@@ -38,14 +38,16 @@ El simulador modela un sistema cuántico con tres componentes:
 1. **Electrones (Fermiones)**: Modelados como resonancias en una red 1D o 2D.
 2. **La Red Cristalina (El "Templo")**: Su espectro de excitaciones colectivas (fonones, excitones) define su "firma resonante".
 3. **El Acoplamiento Resonante (El "Ritual")**: Implementado como un término de interacción que depende de los parámetros universales de la TdP:  
-   - \( p = 7 \)  
-   - \( \alpha = 1/\phi \approx 0.618 \)
+   - p = 7  
+   - α = 1/φ ≈ 0.618
 
 El Hamiltoniano total es:
-> \( H_{\text{syntheos}} = H_{\text{electrons}} + H_{\text{lattice}} + H_{\text{interaction}} \)
+> H_syntheos = H_electrons + H_lattice + H_interaction
 
-Donde \( H_{\text{interaction}} = \sum_n g_n \, c_i^\dagger c_j (b_n^\dagger + b_n) \), y \( g_n \) depende de \( p \) y \( \alpha \).
+Donde:
+> H_interaction = Σ g_n · c_i† c_j (b_n† + b_n)
 
+y g_n depende de p y α.
 ---
 
 ## 📊 Resultados del Laboratorio de Materiales v7.0
@@ -77,9 +79,9 @@ A continuación se detalla la evolución técnica entre las dos versiones princi
 
 - **Modelo de electrones**: Mejorado con `scipy.sparse` para mayor escalabilidad.
 - **Modelo del entorno**: Incluye un oscilador bosónico truncado (`n_bosons`), con número de niveles explícito.
-- **Acoplamiento**: Jerárquico y espacial: \( g_n \sim p^{-\alpha n} \), reflejando la estructura fractal del vacío.
-- **Espacio de Hilbert**: Producto tensorial explícito \( \mathcal{H}_{\text{elec}} \otimes \mathcal{H}_{\text{boson}} \).
-- **Hamiltoniano de interacción**: Incluye operadores de creación/aniquilación bosónicos \( (b^\dagger + b) \), capturando la dinámica de excitación colectiva.
+- **Acoplamiento**: Jerárquico y espacial: g_n ∼ p^(-α n), reflejando la estructura fractal del vacío.
+- **Espacio de Hilbert**: Producto tensorial explícito H_elec ⊗ H_boson.
+- **Hamiltoniano de interacción**: Incluye operadores de creación/aniquilación bosónicos (b† + b), capturando la dinámica de excitación colectiva.
 - **Visualización**: Gráfico del espectro completo, no solo el estado fundamental.
 
 ### **Conclusión de la Evolución**
