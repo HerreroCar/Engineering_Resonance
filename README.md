@@ -103,7 +103,7 @@ La transición de v7.0 a v7.1 representa un salto cualitativo: de un **modelo fe
 - [ ] Escanear materiales teóricos para predecir nuevos "pi-tones".
 - [ ] Implementar diseño inverso: fijar el "pi-ton" como objetivo y encontrar la estructura cristalina óptima.
 - [ ] Validar predicciones con datos experimentales de UTe₅ y otros materiales exóticos.
-- [ ] Publicar el marco completo en una revista de física de materiales.
+
 
 ---
 
