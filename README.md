@@ -123,10 +123,9 @@ La transición de v7.0 a v7.1 representa un salto cualitativo: de un **modelo fe
 ## 📄 Documento Asociado
 
 Este repositorio acompaña al artículo científico:  
-📄 **"The Pellizco Theory: A Generative Framework for Fundamental Physics
-Deriving the Universe from a Unique, Stable Fixed Point of a Fractal Renormalization Group"**
 
-🔗 [Disponible en Scribd](https://www.scribd.com/document/911699739/The-Pellizco-Theory-A-Generative-Framework-for-Fundamental-Physics)  
+🔗 [A Generative Framework for Fundamental Physics
+Deriving the Universe from a Unique, Stable Fixed Point of a Fractal Renormalization Group](https://www.scribd.com/document/911699739/The-Pellizco-Theory-A-Generative-Framework-for-Fundamental-Physics)  
 
 ## 🔬 Proyecto 2: Explorador de Datos Cuánticos para Jiuzhang 4.0
 
