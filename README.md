@@ -1,13 +1,34 @@
 # 🌐 Engineering_Resonance/  
-### The Pellizco Theory: A Generative Framework for Fundamental Physics 
-*Deriving the Universe from a Unique, Stable Fixed Point of a Fractal Renormalization Group*
+### Laboratorio de la Ingeniería Resonante  
+*Dos herramientas, una visión: diseñar y descubrir coherencia cuántica*
 
 > **"No buscamos un material. Buscamos una catedral con la acústica perfecta."**  
-> *— De "Marco Conceptual de la Ingeniería Resonante"*
+> *— Marco Conceptual de la Ingeniería Resonante*
 
-Este directorio contiene el núcleo de un nuevo programa de investigación: la **Ingeniería Resonante**, una disciplina que utiliza los principios de la **Teoría del Pellizco (TdP)** para diseñar materiales cuánticos que alberguen estados de coherencia cuántica emergente, como el reciente "pi-ton".
+Este directorio contiene dos proyectos complementarios que juntos forman el núcleo de la **Ingeniería Resonante**, una nueva disciplina que utiliza los principios de la **Teoría del Pellizco (TdP)** para transformar la ciencia de materiales y la física cuántica de un arte empírico a una ciencia predictiva y generativa.
 
-El script `TdP_Material_Resonance_Simulator_v7.0.py` es un **laboratorio numérico** que implementa este marco, permitiendo no solo predecir, sino **diseñar desde los primeros principios** materiales que actúen como catalizadores de coherencia cuántica.
+1. **`TdP_Material_Resonance_Simulator_v7.1.py`**: Un laboratorio numérico para **diseñar** materiales que alberguen estados cuánticos emergentes.
+2. **`TdP_Quantum_Data_Explorer.ipynb`**: Un protocolo computacional para **descubrir** firmas del vacío fractal en datos experimentales de muestreo bosónico gaussiano (GBS).
+
+Juntos, forman un círculo completo: **diseño → experimento → detección → retroalimentación → rediseño**.
+
+---
+
+## 🧪 Proyecto 1: Simulador de Resonancia de Materiales v7.0 y v7.1
+
+Este script es un **laboratorio numérico avanzado** que simula la física de la resonancia cuántica en materiales. Su propósito es:
+
+- **Predecir** si un material dado puede albergar un "pi-ton".
+- **Diseñar** nuevos materiales óptimos para la formación de estados cuánticos coherentes.
+- Validar el marco de la Ingeniería Resonante contra datos teóricos.
+
+### 🔧 Arquitectura
+- **Entrada**: Estructura del material (red cristalina, átomos).
+- **Física**: Hamiltoniano que incluye electrones, modos colectivos (fonones, excitones) y acoplamiento resonante dependiente de p=7, α=1/φ.
+- **Salida**: Espectro de energía, detección de estados ligados (pi-tones), energía de enlace.
+
+### 📊 Resultados Clave
+La ejecución del simulador muestra que, solo con los parámetros de la TdP (p=7, α=0.618), se forma un estado ligado bosónico (el "pi-ton") con una energía de enlace de **0.0089 unidades**, demostrando que el entorno material actúa como un **catalizador de coherencia cuántica**.
 
 ---
 
@@ -99,16 +120,6 @@ La transición de v7.0 a v7.1 representa un salto cualitativo: de un **modelo fe
 3. **Poder Predictivo**: Este resultado no es un ajuste. Es una **predicción**. Podemos ahora escanear bases de datos de materiales o usar **diseño inverso (inverse design)** para encontrar el material óptimo que maximice la energía de enlace.
 
 ---
-
-## 🚀 Próximos Pasos
-
-- [ ] Escanear materiales teóricos para predecir nuevos "pi-tones".
-- [ ] Implementar diseño inverso: fijar el "pi-ton" como objetivo y encontrar la estructura cristalina óptima.
-- [ ] Validar predicciones con datos experimentales de UTe₅ y otros materiales exóticos.
-
-
----
-
 ## 📄 Documento Asociado
 
 Este repositorio acompaña al artículo científico:  
@@ -117,6 +128,46 @@ Deriving the Universe from a Unique, Stable Fixed Point of a Fractal Renormaliza
 
 🔗 [Disponible en Scribd](https://www.scribd.com/document/911699739/The-Pellizco-Theory-A-Generative-Framework-for-Fundamental-Physics)  
 
+## 🔬 Proyecto 2: Explorador de Datos Cuánticos para Jiuzhang 4.0
+
+Este notebook es un **protocolo computacional** diseñado para que el equipo de **Jiuzhang 4.0** pueda analizar sus datos de muestreo bosónico gaussiano (GBS) en busca de una **firma predicha por la TdP**:
+
+> **Oscilaciones log-periódicas con frecuencia fundamental β = 2π / ln 7 ≈ 3.23**, inducidas por la estructura fractal 7-ádica del vacío cuántico.
+
+### 🎯 Objetivo
+Invitar al equipo de Jiuzhang a un **descubrimiento conjunto**: si estas oscilaciones están presentes, se revelará una **nueva capa de geometría fundamental** en la naturaleza.
+
+### 🛠️ Funcionalidades
+- Carga y preprocesamiento de datos (binario, CSV, HDF5).
+- Extracción del espectro de correlación P(ℓ).
+- Ajuste de un modelo log-periódico:  
+  P(ℓ) = A · ℓ^(-γ) · [1 + ε · cos(β · log ℓ + φ)]
+- Prueba de hipótesis: ¿Es β ≈ 3.23?
+- Visualización interactiva del espectro y el ajuste.
+
+### 📄 Documento Asociado
+Este notebook implementa el [Blueprint: A Computational Protocol to Detect p-Adic Based Log-Periodicity in Gaussian Boson Samples](https://es.scribd.com/document/913235994/Teoria-del-Pellizco-TdP-A-Computational-Protocol-to-Detect-p-Adic-Based-Log-Periodicity-in-Gaussian-Boson-Samples), un protocolo formal para la verificación experimental de la TdP.
+
+---
+
+## 🔗 Conexión entre los Proyectos
+
+| Simulador de Materiales | ↔ | Explorador de Datos |
+|-------------------------|---|---------------------|
+| **Diseña** materiales que alberguen coherencia | | **Detecta** coherencia en datos experimentales |
+| Usa p=7, α=1/φ para predecir nuevos estados | | Usa β=2π/ln 7 para validar la geometría del vacío |
+| **Ingeniería hacia adelante** | | **Ciencia de datos inversa** |
+
+Este es el ciclo de la **Ingeniería Resonante**: diseñar sistemas que generen coherencia, y buscar coherencia en los sistemas que ya existen.
+
+---
+
+
+## ✅ Próximos Pasos
+- [ ] Ejecutar el `TdP_Quantum_Data_Explorer.ipynb` con datos reales de Jiuzhang 4.0.
+- [ ] Validar predicciones del simulador con nuevos materiales exóticos.
+- [ ] Publicar resultados conjuntos con el equipo de Jiuzhang.
+- [ ] Extender el marco a otros sistemas cuánticos (superconductores, puntos cuánticos).
 
 ---
 
