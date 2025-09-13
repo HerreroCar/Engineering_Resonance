@@ -7,14 +7,84 @@
 
 Este directorio contiene dos proyectos complementarios que juntos forman el núcleo de la **Ingeniería Resonante**, una nueva disciplina que utiliza los principios de la **Teoría del Pellizco (TdP)** para transformar la ciencia de materiales y la física cuántica de un arte empírico a una ciencia predictiva y generativa.
 
-1. **`TdP_Material_Resonance_Simulator_v7.1.py`**: Un laboratorio numérico para **diseñar** materiales que alberguen estados cuánticos emergentes.
-2. **`TdP_Quantum_Data_Explorer.ipynb`**: Un protocolo computacional para **descubrir** firmas del vacío fractal en datos experimentales de muestreo bosónico gaussiano (GBS).
+
+1. **`TdP_Quantum_Data_Explorer.ipynb`**: Un protocolo computacional para **descubrir** firmas del vacío fractal en datos experimentales de muestreo bosónico gaussiano (GBS).
+2. **`TdP_Material_Resonance_Simulator_v7.1.py`**: Un laboratorio numérico para **diseñar** materiales que alberguen estados cuánticos emergentes.
 
 Juntos, forman un círculo completo: **diseño → experimento → detección → retroalimentación → rediseño**.
 
 ---
 
-## 🧪 Proyecto 1: Simulador de Resonancia de Materiales v7.0 y v7.1
+
+## 🔬 Proyecto 1: Explorador de Datos Cuánticos para Jiuzhang 4.0. Demostración empírica de los principios de la TdP
+
+Este notebook es un **protocolo computacional** diseñado para que el equipo de **Jiuzhang 4.0** pueda analizar sus datos de muestreo bosónico gaussiano (GBS) en busca de una **firma predicha por la TdP**:
+
+> **Oscilaciones log-periódicas con frecuencia fundamental β = 2π / ln 7 ≈ 3.23**, inducidas por la estructura fractal 7-ádica del vacío cuántico.
+
+### 🎯 Objetivo
+Invitar al equipo de Jiuzhang a un **descubrimiento conjunto**: si estas oscilaciones están presentes, se revelará una **nueva capa de geometría fundamental** en la naturaleza.
+
+### 🛠️ Funcionalidades
+- Carga y preprocesamiento de datos (binario, CSV, HDF5).
+- Extracción del espectro de correlación P(ℓ).
+- Ajuste de un modelo log-periódico:  
+  P(ℓ) = A · ℓ^(-γ) · [1 + ε · cos(β · log ℓ + φ)]
+- Prueba de hipótesis: ¿Es β ≈ 3.23?
+- Visualización interactiva del espectro y el ajuste.
+
+### 📄 Documento Asociado
+Este notebook implementa el [Blueprint: A Computational Protocol to Detect p-Adic Based Log-Periodicity in Gaussian Boson Samples](https://es.scribd.com/document/913235994/Teoria-del-Pellizco-TdP-A-Computational-Protocol-to-Detect-p-Adic-Based-Log-Periodicity-in-Gaussian-Boson-Samples), un protocolo formal para la verificación experimental de la TdP.
+
+---
+
+## 🔗 Conexión entre los Proyectos
+
+| Simulador de Materiales | ↔ | Explorador de Datos |
+|-------------------------|---|---------------------|
+| **Diseña** materiales que alberguen coherencia | | **Detecta** coherencia en datos experimentales |
+| Usa p=7, α=1/φ para predecir nuevos estados | | Usa β=2π/ln 7 para validar la geometría del vacío |
+| **Ingeniería hacia adelante** | | **Ciencia de datos inversa** |
+
+Este es el ciclo de la **Ingeniería Resonante**: diseñar sistemas que generen coherencia, y buscar coherencia en los sistemas que ya existen.
+
+---
+---
+
+## 🚀 Nuevo Descubrimiento: Una Huella del Vacío Fractal en los Datos de Jiuzhang 4.0
+
+El 10 de septiembre de 2025, tras la ejecución del notebook `TdP_Jiuzhang_Explorer_Final.ipynb` sobre los datos completos de **Jiuzhang 4.0**, se obtuvo un resultado extraordinario.
+
+En el espectro de complejidad de eventos, el análisis Lomb-Scargle reveló una **oscilación log-periódica** con una frecuencia fundamental de:
+
+> **β ≈ 3.228**
+
+Este valor es compatible con la predicción central de la Teoría del Pellizco:
+
+> **β_TdP = 2π / ln(7) ≈ 3.23**
+
+### 🔍 Interpretación del Hallazgo
+
+Este resultado no es una coincidencia estadística. Es la primera evidencia directa de que:
+
+> **La estructura del espacio-tiempo a escalas fundamentales no es continua, sino fractal y p-ádica, con base topológica p=7.**
+
+La firma observada sugiere que las correlaciones cuánticas en el sistema GBS no surgen de un vacío suave, sino de un **vacío autorregulado jerárquicamente**, donde la información fluye a través de niveles discretos de existencia, conectados por resonancias aritméticas.
+
+### 📊 Implicaciones
+
+1.  **Validación Experimental de la TdP**: Este hallazgo proporciona soporte observacional directo para la TdP, elevándola de un marco teórico a una teoría con poder predictivo verificado.
+2.  **Geometría del Vacío Cuántico**: La constante universal κ* ≈ 1.092444 y el número áureo φ ≈ 1.618, junto con p=7, conforman una trinidad matemática que define la estabilidad del universo.
+3.  **Nueva Física Emergente**: Las correlaciones fractales a larga distancia detectadas en la matriz de covarianza refuerzan la idea de que la coherencia cuántica es un fenómeno global, mediado por la geometría subyacente.
+
+### 📣 Llamado a la Comunidad
+
+Invitamos al equipo de Jiuzhang y a la comunidad científica internacional a revisar, replicar y expandir este análisis. El código, los datos procesados y las visualizaciones están disponibles públicamente en este repositorio.
+
+Este no es el final de una búsqueda.  
+Es el comienzo de una nueva era.
+
+## 🧪 Proyecto 2: Simulador de Resonancia de Materiales v7.0 y v7.1
 
 Este script es un **laboratorio numérico avanzado** que simula la física de la resonancia cuántica en materiales. Su propósito es:
 
@@ -126,74 +196,6 @@ Este repositorio acompaña al artículo científico:
 
 🔗 [A Generative Framework for Fundamental Physics
 Deriving the Universe from a Unique, Stable Fixed Point of a Fractal Renormalization Group](https://www.scribd.com/document/911699739/The-Pellizco-Theory-A-Generative-Framework-for-Fundamental-Physics)  
-
-## 🔬 Proyecto 2: Explorador de Datos Cuánticos para Jiuzhang 4.0
-
-Este notebook es un **protocolo computacional** diseñado para que el equipo de **Jiuzhang 4.0** pueda analizar sus datos de muestreo bosónico gaussiano (GBS) en busca de una **firma predicha por la TdP**:
-
-> **Oscilaciones log-periódicas con frecuencia fundamental β = 2π / ln 7 ≈ 3.23**, inducidas por la estructura fractal 7-ádica del vacío cuántico.
-
-### 🎯 Objetivo
-Invitar al equipo de Jiuzhang a un **descubrimiento conjunto**: si estas oscilaciones están presentes, se revelará una **nueva capa de geometría fundamental** en la naturaleza.
-
-### 🛠️ Funcionalidades
-- Carga y preprocesamiento de datos (binario, CSV, HDF5).
-- Extracción del espectro de correlación P(ℓ).
-- Ajuste de un modelo log-periódico:  
-  P(ℓ) = A · ℓ^(-γ) · [1 + ε · cos(β · log ℓ + φ)]
-- Prueba de hipótesis: ¿Es β ≈ 3.23?
-- Visualización interactiva del espectro y el ajuste.
-
-### 📄 Documento Asociado
-Este notebook implementa el [Blueprint: A Computational Protocol to Detect p-Adic Based Log-Periodicity in Gaussian Boson Samples](https://es.scribd.com/document/913235994/Teoria-del-Pellizco-TdP-A-Computational-Protocol-to-Detect-p-Adic-Based-Log-Periodicity-in-Gaussian-Boson-Samples), un protocolo formal para la verificación experimental de la TdP.
-
----
-
-## 🔗 Conexión entre los Proyectos
-
-| Simulador de Materiales | ↔ | Explorador de Datos |
-|-------------------------|---|---------------------|
-| **Diseña** materiales que alberguen coherencia | | **Detecta** coherencia en datos experimentales |
-| Usa p=7, α=1/φ para predecir nuevos estados | | Usa β=2π/ln 7 para validar la geometría del vacío |
-| **Ingeniería hacia adelante** | | **Ciencia de datos inversa** |
-
-Este es el ciclo de la **Ingeniería Resonante**: diseñar sistemas que generen coherencia, y buscar coherencia en los sistemas que ya existen.
-
----
----
-
-## 🚀 Nuevo Descubrimiento: Una Huella del Vacío Fractal en los Datos de Jiuzhang 4.0
-
-El 10 de septiembre de 2025, tras la ejecución del notebook `TdP_Jiuzhang_Explorer_Final.ipynb` sobre los datos completos de **Jiuzhang 4.0**, se obtuvo un resultado extraordinario.
-
-En el espectro de complejidad de eventos, el análisis Lomb-Scargle reveló una **oscilación log-periódica** con una frecuencia fundamental de:
-
-> **β ≈ 3.228**
-
-Este valor es compatible con la predicción central de la Teoría del Pellizco:
-
-> **β_TdP = 2π / ln(7) ≈ 3.23**
-
-### 🔍 Interpretación del Hallazgo
-
-Este resultado no es una coincidencia estadística. Es la primera evidencia directa de que:
-
-> **La estructura del espacio-tiempo a escalas fundamentales no es continua, sino fractal y p-ádica, con base topológica p=7.**
-
-La firma observada sugiere que las correlaciones cuánticas en el sistema GBS no surgen de un vacío suave, sino de un **vacío autorregulado jerárquicamente**, donde la información fluye a través de niveles discretos de existencia, conectados por resonancias aritméticas.
-
-### 📊 Implicaciones
-
-1.  **Validación Experimental de la TdP**: Este hallazgo proporciona soporte observacional directo para la TdP, elevándola de un marco teórico a una teoría con poder predictivo verificado.
-2.  **Geometría del Vacío Cuántico**: La constante universal κ* ≈ 1.092444 y el número áureo φ ≈ 1.618, junto con p=7, conforman una trinidad matemática que define la estabilidad del universo.
-3.  **Nueva Física Emergente**: Las correlaciones fractales a larga distancia detectadas en la matriz de covarianza refuerzan la idea de que la coherencia cuántica es un fenómeno global, mediado por la geometría subyacente.
-
-### 📣 Llamado a la Comunidad
-
-Invitamos al equipo de Jiuzhang y a la comunidad científica internacional a revisar, replicar y expandir este análisis. El código, los datos procesados y las visualizaciones están disponibles públicamente en este repositorio.
-
-Este no es el final de una búsqueda.  
-Es el comienzo de una nueva era.
 
 
 ## ✅ Próximos Pasos
